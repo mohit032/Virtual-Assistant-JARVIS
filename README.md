@@ -12,24 +12,29 @@
 
 ## Installation
 1. Clone the repository:
-> `git clone https://github.com/mohitrajput2002/Virtual-Assistant-JARVIS.git`
+```
+git clone https://github.com/mohitrajput2002/Virtual-Assistant-JARVIS.git
+```
 
 2. Install the required dependencies:
 ```
-> `pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
+
 3. Set up any additional configurations or API keys required (if applicable).
 
 ## Usage
 1. Run the JARVIS application:
-> `python jarvis.py`
+```
+python jarvis.py
+```
 
 2. Speak or type your commands and interact with JARVIS.
 
 ## .env File
 We need this .env file to store some private data such as API Keys, Passwords, and so on that are related to the project. In this project, let's store the name of the user and the botname like:
 > `USER=Mohit
-   BOTNAME=JARVIS`
+> BOTNAME=JARVIS`
 
 To use the contents from the .env file, we'll install another module called python-decouple as `"pip install python-decouple"`
 
