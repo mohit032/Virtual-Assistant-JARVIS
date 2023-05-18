@@ -15,13 +15,14 @@
 > `git clone https://github.com/mohitrajput2002/Virtual-Assistant-JARVIS.git`
 
 2. Install the required dependencies:
+```
 > `pip install -r requirements.txt`
-
+```
 3. Set up any additional configurations or API keys required (if applicable).
 
 ## Usage
 1. Run the JARVIS application:
-> `python main.py`
+> `python jarvis.py`
 
 2. Speak or type your commands and interact with JARVIS.
 
